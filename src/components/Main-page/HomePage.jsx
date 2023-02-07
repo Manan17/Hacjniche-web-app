@@ -186,7 +186,7 @@ export default function HomePage(props) {
             />
             <h4>
               <b>Prize</b>: Rs. 25000 <br />
-              Swags & Promo Codes
+              Swags & Goodies
               <br />
               <br />
               <a href="">Much More</a>
@@ -202,7 +202,7 @@ export default function HomePage(props) {
             />
             <h4>
               <b>Prize</b>: Rs. 15000 <br />
-              Swags & Promo Codes
+              Swags & Goodies
               <br />
               <br />
               <a href="">Much More</a>
@@ -218,7 +218,7 @@ export default function HomePage(props) {
             />
             <h4>
               <b>Prize</b>: Rs. 10000 <br />
-              Swags & Promo Codes
+              Swags & Goodies
               <br />
               <br />
               <a href="">Much More</a>
