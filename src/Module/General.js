@@ -412,12 +412,12 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A hackathon is a 24 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'
       },
       {
         label: 'Who can attend?',
         content:
-          'DUHacks is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online.'
+          'HackNiche is open to all undergraduate, high school students, and middle school students from all schools.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
@@ -439,7 +439,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (contact@duhacks.tech) we would happy to help you.'
+          'Reach us directly at (help.hackniche@gmail.com) we would happy to help you.'
       },
       {
         label: 'Can I participate as a individual?',
@@ -449,7 +449,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Will there be swag?',
         content:
-          'Yes, Participants and winners will receive swags, certificates, promo codes, and much more!'
+          'Yes, Participants and winners will receive swags, certificates, goodies, and much more!'
       }
     ]
   ]

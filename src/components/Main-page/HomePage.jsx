@@ -178,14 +178,14 @@ export default function HomePage(props) {
         </Row>
         <div class="row1-container">
           <div class="box red">
-            <h2>Overall First</h2>
+            <h2>First Prize</h2>
             <img
               class="imgright"
               src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 25000 <br />
+              <b>Rs. 25,000</b> <br />
               Swags & Goodies
               <br />
               <br />
@@ -194,14 +194,14 @@ export default function HomePage(props) {
           </div>
 
           <div class="box box-down cyan">
-            <h2>Overall Second</h2>
+            <h2>Second Prize</h2>
             <img
               className="imgright"
               src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 15000 <br />
+              <b>Rs. 15,000</b> <br />
               Swags & Goodies
               <br />
               <br />
@@ -210,14 +210,14 @@ export default function HomePage(props) {
           </div>
 
           <div class="box box-down blue">
-            <h2>Overall Third</h2>
+            <h2>Third Prize</h2>
             <img
               class="imgright"
               src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 10000 <br />
+              <b>Rs. 10,000</b> <br />
               Swags & Goodies
               <br />
               <br />

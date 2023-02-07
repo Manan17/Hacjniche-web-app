@@ -56,7 +56,7 @@ export default function Footer() {
           <div class="top">
             <div class="logo-details">
               <img src={gdsc} className="imgfooter" />
-              <img src={syn} className="imgfooter" />
+              <img src={syn} className="imgfooter-syn" />
               <img />
             </div>
             <div class="media-icons">
