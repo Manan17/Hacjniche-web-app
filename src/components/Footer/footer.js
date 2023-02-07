@@ -1,5 +1,7 @@
-import React, {useEffect, useState} from "react";
-import "./footer.scss";
+import React, {useEffect, useState} from 'react';
+import './footer.scss';
+import gdsc from './gdsc1.png';
+import syn from './syn1.png';
 // import Insta from "./icons8-instagram.svg";
 // import Dis from "./icons8-discord.svg";
 // import Linked from "./icons8-linkedin-2.svg";
@@ -9,10 +11,10 @@ import "./footer.scss";
 // import TermsOfUse from "./Terms of use.pdf";
 // import Twitter from "./icons8-twitter.svg";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import logo from "../navbar/LOGO.png";
-import dsc from "./dsc.png";
+import logo from '../navbar/LOGO.png';
+import dsc from './dsc.png';
 // import cross from "./cross.svg";
-import {SOCIALS, FOOTER} from "../../Module/General";
+import {SOCIALS, FOOTER} from '../../Module/General';
 
 // function GithubTemplate({hideTemplate}) {
 //   return (
@@ -35,10 +37,10 @@ export default function Footer() {
   const [viewTemplate, setViewTemplate] = useState(true);
 
   useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent);
+    window.addEventListener('scroll', listenScrollEvent);
 
     return () => {
-      window.removeEventListener("scroll", listenScrollEvent);
+      window.removeEventListener('scroll', listenScrollEvent);
     };
   }, []);
 
@@ -50,37 +52,62 @@ export default function Footer() {
   return (
     <div>
       <footer>
-    <div class="content">
-      <div class="top">
-        <div class="logo-details">
-          <img src={logo} className="imgfooter" />
-          <span class="logo_name">&nbsp;DUHacks</span>
-        </div>
-        <div class="media-icons">
-          <a target="_blank" href={SOCIALS.discord}><i class="iconlink fab fa-discord"></i></a>
-          <a target="_blank" href={SOCIALS.twitter}><i class="iconlink fab fa-twitter"></i></a>
-          <a target="_blank" href={SOCIALS.instagram}><i class="iconlink fab fa-instagram"></i></a>
-          <a target="_blank" href={SOCIALS.linkedin}><i class="iconlink fab fa-linkedin-in"></i></a>
-          <a target="_blank"href={SOCIALS.email}><i class="iconlink fa-solid fa-envelope"></i></a>
-        </div>
-      </div>
-      <div class="link-boxes">
-        <ul class="box1 input-box1">
-          {/*<li class="link_name">Subscribe</li>*/}
-          <img src={dsc} className="imgfooterdsc" />
-        </ul>
-      </div>
-    </div>
-    <div class="bottom-details">
-      <div class="bottom_text">
-        <span class="copyright_text">Copyright © 2022 DUHacks</span>
-        <span class="policy_terms">
-          Made with ❤️
-        </span>
-      </div>
-    </div>
-  </footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <img src={gdsc} className="imgfooter" />
+              <img src={syn} className="imgfooter" />
+              <img />
+            </div>
+            <div class="media-icons">
+              <a target="_blank" href={SOCIALS.discord}>
+                <i class="iconlink fab fa-discord"></i>
+              </a>
 
+              <a target="_blank" href={SOCIALS.instagramgdsc}>
+                <i class="iconlink fab fa-instagram"></i>
+              </a>
+              <a target="_blank" href={SOCIALS.instagramsyn}>
+                <i class="iconlink fab fa-instagram"></i>
+              </a>
+
+              <a target="_blank" href={SOCIALS.email}>
+                <i class="iconlink fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <h1 className="address-text">Address</h1>
+        <div className="address">
+          <div class="contact-details">
+            <i class="fa fa-location"></i>
+            <p className="contact-text">
+              {' '}
+              No. U, 15, Bhaktivedanta Swami Rd, <br />
+              opp. Cooper Hospital, Navpada, JVPD Scheme,
+              <br /> Vile Parle, Mumbai, Maharashtra 400056{' '}
+            </p>
+          </div>
+          <div class="gmap_canvas">
+            <iframe
+              class="gmap_iframe"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              title="maps"
+              src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=dj sangh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 HackNiche</span>
+            <span class="policy_terms">Made with ❤️</span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

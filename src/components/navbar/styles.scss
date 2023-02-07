@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 nav {
   list-style-type: none;
   height: 11vh;
@@ -9,7 +9,7 @@ nav {
   width: 100%;
   z-index: 10;
   transition: 0.4s;
- 
+
   img {
     z-index: 1000000;
     &:hover {
@@ -23,13 +23,13 @@ nav {
 }
 
 .header--logo1 {
-  width: 80px;
+  width: 200px;
   margin-left: -18vw;
   margin-top: -0vw;
 }
- .padd{
-   padding-left: 35vw;
- }
+.padd {
+  padding-left: 35vw;
+}
 .s-open,
 .s-close {
   display: none;
@@ -50,7 +50,7 @@ nav {
 .list--general {
   padding: 20px;
 }
-.headerlogo_container{
+.headerlogo_container {
   margin-right: 5rem;
 }
 .nav_bar .ulnav .liw {
@@ -69,26 +69,25 @@ a:link {
   text-decoration: none;
   padding: 1px;
 }
-.logi_none{
+.logi_none {
   display: none;
 }
 
 @media (max-width: 953px) {
-   .padd{
-   padding-left: 20vw;
- }
+  .padd {
+    padding-left: 20vw;
+  }
 }
 
-.percentlogomain{
-  width: 90%;
-  height: 90%;
+.percentlogomain {
+  width: 110%;
+  height: 170%;
 }
 
 @media (max-width: 712px) {
-  
-  .percentlogomain{
-  width: 90px;
-  height: 90px;
+  .percentlogomain {
+    width: 90px;
+    height: 90px;
   }
 
   .ease {
@@ -117,15 +116,13 @@ a:link {
     right: 4vw;
     top: 7.9vw;
   }
-.logi_none{
-  display: inline;
-  padding: 20vw 10vw 100vw 23vw;
-}
-
+  .logi_none {
+    display: inline;
+    padding: 20vw 10vw 100vw 23vw;
+  }
 }
 
 @media (max-width: 487px) {
-
   .s-open {
     right: 5vw;
     top: 6.7vw;
